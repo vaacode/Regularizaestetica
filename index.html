@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/regulariza.png">
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Regulariza Estética</title>
+
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">Regulariza Estética</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> Sobre
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil-briefcase-alt nav__icon"></i> Serviços
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="uil-images nav__icon"></i> Galeria
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil-clipboard-notes nav__icon"></i> FAQS
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contato
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.instagram.com/regularizaestetica?igsh=NXlkb2RmN3R0NjF6"
+                            class="home__social-icon" target="_blank">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="https://wa.me/5531998102311" class="home__social-icon" target="_blank">
+                            <i class="uil uil-whatsapp"></i>
+                        </a>
+
+                        <!-- <a href="" class="home__social-icon">
+                                
+                            </a> -->
+
+                    </div>
+
+                    <div class="home__img">
+                        <img src="assets/img/regulariza.png" alt="Logo">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Regulariza Estética</h1>
+                        <h3 class="home__subtitle">Profissionalismo e Excelência</h3>
+                        <p class="home__description">Revele a sua beleza interior com o cuidado e a expertise da nossa
+                            consultoria de estética e beleza. Transforme-se e brilhe como nunca!</p>
+                        <a href="#contact" class="button button--flex">
+                            Contato <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Rolar para baixo</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">Sobre Nós</h2>
+            <span class="section__subtitle">Apresentação</span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/quemsomos.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        A Regulariza Estética auxilia esteticistas e cosmetólogos na conformidade com as normas da
+                        Anvisa, oferecendo consultoria completa para empresas de todos os portes. Desde a
+                        pré-consultoria até o acompanhamento anual ou mensal, asseguramos conformidade contínua e
+                        sucesso a longo prazo. Nosso time é composto por:
+                    </p>
+                    <div class="about__info">
+                        <div>
+                            <ul>
+                                <li>Fabiana Reis: Esteticista e Cosmetóloga/Técnica em Estética</li>
+                                <li>Laura Roberta: Esteticista e Cosmetóloga</li>
+                                <li>Carla Souza: Esteticista e Cosmetóloga/Técnica em Estética</li>
+                                <li>Eduarda Front: Esteticista e Cosmetóloga</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Serviços</h2>
+            <span class="section__subtitle">O que nós fazemos</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!--==================== SKILLS 1 ====================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Pré-consultoria em centros de Estética</h1>
+                                <span class="skills__subtitle"></span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <span class="skills__subtitle">Análise detalhada dos documentos para garantir
+                                        conformidade com normas da Anvisa desde o início.</span>
+                                </div>
+                            </div>
+                            <div class="services__content">
+                                <img class="services__title" src="assets/img/galeria 9.jpg" alt="Imagem 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <!--==================== SKILLS 2 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-swatchbook skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Regularização de espaços de coworking</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <span class="skills__subtitle">Regularização de coworking para garantir
+                                        conformidade legal para prática estética, promovendo ambiente seguro para seu
+                                        negócio.</span>
+                                </div>
+                            </div>
+                            <div class="services__content">
+                                <img class="services__title" src="assets/img/galeria10.jpg" alt="Imagem 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <!--==================== SKILLS 3 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-swatchbook skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Obtenção de alvará sanitário</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <span class="skills__subtitle">Suporte na obtenção do alvará sanitário
+                                        para seu centro de estética, garantindo licenciamento adequado.</span>
+                                </div>
+                            </div>
+                            <div class="services__content">
+                                <img class="services__title" src="assets/img/galeria11.jpg" alt="Imagem 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <!--==================== SKILLS 4 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-swatchbook skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Adequação à legislação da Anvisa</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <span class="skills__subtitle">Conformidade com normas da Anvisa para
+                                        segurança e qualidade em centros de estética.</span>
+                                </div>
+                                <div class="services__content">
+                                    <img class="services__title" src="assets/img/galeria12.jpg" alt="Imagem 4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <!--==================== SKILLS 5 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-swatchbook skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Cursos</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h2 class="skills__subtitle">Pacote Vip</h2>
+                                </div>
+                                <ul class="skills__titles">
+                                    <li class="skills__subtitle">Acesso ilimitado ao material</li>
+                                </ul>
+                                <ul class="skills__titles">
+                                    <li class="skills__subtitle">Manuseio de equipamentos e materiais</li>
+                                </ul>
+                                <ul class="skills__titles">
+                                    <li class="skills__subtitle">Visitas mensais</li>
+                                </ul>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h2 class="skills__subtitle">Pacote Básico</h2>
+                                </div>
+                                <ul class="skills__titles">
+                                    <li class="skills__subtitle">Acesso ilimitado ao material</li>
+                                </ul>
+                                <ul class="skills__titles">
+                                    <li class="skills__subtitle">Manuseio de 3 tipos de equipamentos</li>
+                                </ul>
+                            </div>
+                            <div class="services__content">
+                                <img class="services__title" src="assets/img/galeria13.jpg" alt="Imagem 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <!--==================== SKILLS 6 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-swatchbook skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Consultoria</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <span class="skills__subtitle">Pacote clínica Estética</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <span class="skills__subtitle">Pacote esteticistas autônomo</span>
+                                </div>
+                            </div>
+                            <div class="services__content">
+                                <img class="services__title" src="assets/img/galeria14.jpg" alt="Imagem 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">GALERIA</h2>
+
+            <div class="services__container container grid">
+
+                <!--==================== SERVICES 2 ====================-->
+                <div class="services__content">
+                    <img class="services__title" src="assets/img/galeria 2.jpg" alt="Imagem 2">
+                </div>
+                <!--==================== SERVICES 3 ====================-->
+                <div class="services__content">
+                    <img class="services__title" src="assets/img/galeria 3.jpg" alt="Imagem 3">
+                </div>
+                <!--==================== SERVICES 4 ====================-->
+                <div class="services__content">
+                    <img class="services__title" src="assets/img/galaria 4.jpg" alt="Imagem 4">
+                </div>
+                <!--==================== SERVICES 5 ====================-->
+                <div class="services__content">
+                    <img class="services__title" src="assets/img/galeria 5.jpg" alt="Imagem 5">
+                </div>
+                <!--==================== SERVICES 6 ====================-->
+                <div class="services__content">
+                    <img class="services__title" src="assets/img/galeria 6.jpg" alt="Imagem 6">
+                </div>
+                <!--==================== SERVICES 7 ====================-->
+                <div class="services__content">
+                    <img class="services__title" src="assets/img/galeria 7.jpg" alt="Imagem 7">
+                </div>
+                <!--==================== SERVICES 12 ====================-->
+                <div class="services__content">
+                    <img class="services__title" src="assets/img/canva.jpg" alt="Imagem 12">
+                </div>
+                <!--==================== SERVICES 4 ====================-->
+                <div class="services__content">
+                    <video class="services__title" src="assets/img/apresentação.mp4" alt="video" controls autoplay
+                        muted>
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">FAQS</h2>
+            <span class="section__subtitle">Perguntas mais frequentes </span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+
+                    <!--==================== PORTFOLIO 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">A empresa estabelece parcerias com advogados e profissionais da
+                                vigilância sanitária?</h3>
+                            <p class="portfolio__description">Sim, colaboramos com profissionais dessas áreas para
+                                garantir apoio na elaboração e execução dos projetos de montagem de consultórios em
+                                conformidade com as normas da Anvisa.
+                            </p>
+                        </div>
+                        <div class="services__content">
+                            <img class="services__title" src="assets/img/serviços.png" alt="Imagem 4">
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Como posso entrar em contato com a equipe da Regulariza
+                                Estética?</h3>
+                            <p class="portfolio__description">Estamos localizados na rua dos Javaes, 704, Centro, Belo
+                                Horizonte. Você também pode entrar em contato conosco através do formulário de contato
+                                em nosso site, por e-mail para contato@regulariza.com, ou pelo telefone (31) 99810-2311.
+                                Estamos disponíveis para responder às suas dúvidas e fornecer informações adicionais
+                                sobre nossos serviços.</p>
+                        </div>
+                        <div class="services__content">
+                            <img class="services__title" src="assets/img/galeria8.jpg" alt="Imagem 4">
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Quais são os benefícios de garantir a conformidade com as
+                                normas da Anvisa para o meu consultório de estética?</h3>
+                            <p class="portfolio__description">Garantir a conformidade com as normas da
+                                Anvisa é essencial para garantir a segurança dos seus clientes e o sucesso do seu
+                                negócio. Ao cumprir as regulamentações da Anvisa, você demonstra profissionalismo e
+                                compromisso com a qualidade e a segurança dos serviços prestados, o que pode
+                                aumentar a confiança dos clientes e melhorar sua reputação no mercado.</p>
+                        </div>
+                        <div class="services__content">
+                            <img class="services__title" src="assets/img/galeria15.jpeg" alt="Imagem 4">
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 4 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Quais serviços de consultoria a Regulariza Estética oferece?
+                            </h3>
+                            <p class="portfolio__description">A Regulariza Estética oferece uma gama completa de
+                                serviços de consultoria para esteticistas e cosmetólogos, incluindo pré-consultoria em
+                                centros de estética, regularização de espaços de coworking, obtenção de alvará sanitário
+                                e adequação à legislação da Anvisa. Além disso, oferecemos acompanhamento anual ou
+                                mensal para garantir conformidade contínua e sucesso a longo prazo.
+                            </p>
+                        </div>
+                        <div class="services__content">
+                            <img class="services__title" src="assets/img/galeria16.jpeg" alt="Imagem 4">
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 5 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Qual é o processo para regularizar meu consultório de estética
+                                com a ajuda da Regulariza Estética?
+                            </h3>
+                            <p class="portfolio__description">O processo para regularizar seu consultório de estética
+                                envolve uma série de etapas, incluindo avaliação inicial, análise das necessidades
+                                específicas do seu negócio, desenvolvimento de um plano de ação personalizado e
+                                implementação das medidas necessárias para garantir a conformidade com as normas da
+                                Anvisa. Nossa equipe experiente estará ao seu lado durante todo o processo, oferecendo
+                                orientação e suporte em cada etapa do caminho.
+                            </p>
+                        </div>
+                        <div class="services__content">
+                            <img class="services__title" src="assets/img/galeria17.jpeg" alt="Imagem 4">
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 6 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">A Regulariza Estética oferece acompanhamento contínuo após a
+                                regularização do meu consultório?
+                            </h3>
+                            <p class="portfolio__description">Sim, após a regularização do seu consultório de estética,
+                                a Regulariza Estética oferece acompanhamento contínuo para garantir que você mantenha a
+                                conformidade com as normas da Anvisa e continue a ter sucesso em seu negócio. Isso
+                                inclui revisões regulares, atualizações sobre novas regulamentações e suporte adicional
+                                conforme necessário para manter seu consultório em conformidade e operando de forma
+                                eficiente.
+                            </p>
+                        </div>
+                        <div class="services__content">
+                            <img class="services__title" src="assets/img/galeria 18.jpeg" alt="Imagem 4">
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">Tem dúvidas de como montar um consultório, com todos os equipamentos
+                            necessários garantindo segurança, e acima de tudo, sucesso á médio/longo prazo, de acordo
+                            com as normas da Anvisa?</h2>
+                        <a href="#contact" class="button button--flex button--white">
+                            Agendamento
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                    </div>
+
+                    <img src="assets/img/perfil.png" alt="" class="project__img">
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section">
+            <h2 class="section__title">Depoimentos</h2>
+            <span class="section__subtitle">O que meus clientes dizem</span>
+
+            <div class="testimonial__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== TESTIMONIAL 1 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="https://th.bing.com/th/id/OIP.NNINE2rrb0h0p1tpe6HPmgHaHa?pid=ImgDet&w=189&h=189&c=7"
+                                    alt="Ana Louzada" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Ana Clara</h3>
+                                    <span class="testimonial__client">Cliente</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">"A Regulariza Estética superou minhas expectativas me
+                            auxiliando desde a montagem do meu consultório até depois da empresa totalmente montada
+                            tirando minhas dúvidas e me prestando todo suporte necessário"</p>
+                    </div>
+
+                    <!--==================== TESTIMONIAL 2 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="https://th.bing.com/th/id/OIP.MO4hTa1LDdpR3Pv0F1LV9QAAAA?pid=ImgDet&w=166&h=204&c=7"
+                                    alt="Joao Pedro" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Patrícia Lima</h3>
+                                    <span class="testimonial__client">Cliente</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">"A Regulariza Estética e equipe prestaram todo suporte
+                            necessário para montagem do meu consultório de acordo com as normas da Anvisa !!!"</p>
+                    </div>
+
+                    <!--==================== TESTIMONIAL 3 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="https://i.pinimg.com/originals/d3/7f/ab/d37fab389e4ab6deba52552ab9e7ed1c.jpg"
+                                    alt="Mario Alberto" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Juliana Souza</h3>
+                                    <span class="testimonial__client">Cliente</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">"Os cursos com a Regulariza Estética me fizeram um
+                            profissional mais confiante em meus procedimentos!!! Simplesmente excelentes profissionais."
+                        </p>
+                    </div>
+
+                    <!--==================== TESTIMONIAL 4 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="https://i.pinimg.com/736x/1b/c2/e4/1bc2e4fb2b871fbfb6f426f9e8ad12dc.jpg"
+                                    alt="Mario Alberto" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Camila Ribeiro</h3>
+                                    <span class="testimonial__client">Cliente</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">"Super recomendo a empresa, ótimos profissionais e um
+                            suporte excepcional!"</p>
+                    </div>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Entre em Contato</h2>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Me ligue</h3>
+                            <span class="contact__subtitle">(31) 99810-2311</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contact__subtitle">contato@regulariza.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Localização</h3>
+                            <span class="contact__subtitle">Rua do Javaes, N° 704</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Horários</h3>
+                            <span class="contact__subtitle">Seg à Sex: 9AM às 18PM</span>
+                            <span class="contact__subtitle">Sabado: 10AM às 14PM</span>
+                            <span class="contact__subtitle">Domingo: Fechado</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="contact__input" class="contact__label">Nome:</label>
+                            <input type="text" class="contact__input" id="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="email__input" class="contact__label">Email:</label>
+                            <input type="email" class="contact__input" id="email__input">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="project__input" class="contact__label">Tipo de projeto:</label>
+                        <input type="text" class="contact__input" id="project__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="message__input" class="contact__label">Mensagem:</label>
+                        <textarea name="" id="message__input" cols="0" rows="7" class="contact__input"
+                            maxlength="300"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#contact" class="button button--flex">
+                            Enviar
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.3724266514396!2d-43.985043789947674!3d-19.824188734943895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa691d527f3a73d%3A0x9d1c0d218026e18e!2sRua%20dos%20Java%C3%A9s%2C%20704%20-%20Rio%20Branco%2C%20Belo%20Horizonte%20-%20MG%2C%2031530-670!5e0!3m2!1spt-BR!2sbr!4v1715201623355!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Section Location -->
+    </div>
+    </section>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title"> Regulariza Estética</h1>
+                    <span class="footer__subtitle">Profissionalismo e Excelência</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#skills" class="footer__link">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="footer__link">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contato</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://wa.me/5531998102311" target="_blank" class="footer__social">
+                        <i class="uil uil-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/regularizaestetica?igsh=NXlkb2RmN3R0NjF6" target="_blank"
+                        class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">
+                &#169; 2024 | Desenvolvido por Regulariza Estética - Todos os direitos reservados
+            </p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
